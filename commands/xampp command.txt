@@ -1,0 +1,27 @@
+
+ *** start xampp ***
+
+ 
+   sudo  /opt/lampp/lampp start
+
+
+*** stop xampp ***
+
+   sudo  /opt/lampp/lampp stop
+
+*** apache start/stop ***
+
+  sudo  /opt/lampp/lampp startapache
+
+  same previous command for the rest of services(mysql \ ftp ) 
+
+***** start graphical tool *****
+
+       sudo /opt/lampp/manager-linux-x64.run
+
+**** uninstall xampp *****
+
+  rm -rf /opt/lampp
+
+
+

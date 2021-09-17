@@ -1,0 +1,26 @@
+
+
+install composer 
+
+install php cli
+
+sudo apt install php-xml
+
+composer global require "laravel/installer"
+
+nano .bashrc
+
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+
+source ~/.bashrc
+
+
+
+ ****** for creating new project ********
+
+       laravel new name-project
+
+
+ ****** for mysql php driver *******
+
+    sudo apt-get install php7.4-mysql 

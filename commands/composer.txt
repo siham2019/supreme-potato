@@ -1,0 +1,17 @@
+
+**** uninstall composer *****
+
+rm /usr/local/bin/composer
+
+
+**** location composer *****
+
+which composer
+
+***** install composer *****
+
+curl -sS https://getcomposer.org/installer | sudo php
+
+sudo mv composer.phar /usr/local/bin/composer
+
+

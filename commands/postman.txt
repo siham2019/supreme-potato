@@ -1,0 +1,26 @@
+
+download postman from official website
+
+
+extract 
+
+
+ sudo mv Postman /opt/
+
+sudo nano  ~/.local/share/applications/Postman.desktop
+
+
+and type this in file and save it
+
+
+--------------------------------------------------------
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=/opt/Postman/app/Postman %U
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+
+----------------------------------------------------------
